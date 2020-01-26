@@ -30,15 +30,15 @@ jobs:
     include:
         -   stage: Code Sniffer
             script:
-                - travis_retry composer cs
+                - composer cs
 
         -   stage: Static Analysis
             script:
-                - travis_retry composer phpstan
+                - composer phpstan
 
         -   stage: Code Coverage
             script:
-                - travis_retry composer coverage
+                - composer coverage
             after_script:
                 - wget https://github.com/satooshi/php-coveralls/releases/download/v1.0.1/coveralls.phar
                 - php coveralls.phar --verbose --config testes/.coveralls.yml
