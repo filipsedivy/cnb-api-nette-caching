@@ -1,4 +1,4 @@
-<h1 align=center>%TITLE%</h1>
+<h1 align=center>Extension nette/caching to filipsedivy/cnb-api package</h1>
 
 <p align=center>
 %DECRIPION%
@@ -9,21 +9,21 @@ Contact 🚀 <a href="https://filipsedivy.cz">filipsedivy.cz</a> | Twitter 🐦 
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.org/%PACKAGE%"><img src="https://img.shields.io/travis/%PACKAGE%.svg?style=flat-square"></a>
-  <a href="https://coveralls.io/r/%PACKAGE%"><img src="https://img.shields.io/coveralls/%PACKAGE%.svg?style=flat-square"></a>
-  <a href="https://packagist.org/packages/%PACKAGE%"><img src="https://poser.pugx.org/%PACKAGE%/d/monthly?format=flat-square"></a>
-  <a href="https://packagist.org/packages/%PACKAGE%"><img src="https://poser.pugx.org/%PACKAGE%/d/total?format=flat-square"></a>
-  <a href="https://github.com/%PACKAGE%/releases"><img src="https://poser.pugx.org/%PACKAGE%/v/stable?format=flat-square"></a>
+  <a href="https://travis-ci.org/filipsedivy/cnb-api-nette-caching"><img src="https://img.shields.io/travis/filipsedivy/cnb-api-nette-caching.svg?style=flat-square"></a>
+  <a href="https://coveralls.io/r/filipsedivy/cnb-api-nette-caching"><img src="https://img.shields.io/coveralls/filipsedivy/cnb-api-nette-caching.svg?style=flat-square"></a>
+  <a href="https://packagist.org/packages/filipsedivy/cnb-api-nette-caching"><img src="https://poser.pugx.org/filipsedivy/cnb-api-nette-caching/d/monthly?format=flat-square"></a>
+  <a href="https://packagist.org/packages/filipsedivy/cnb-api-nette-caching"><img src="https://poser.pugx.org/filipsedivy/cnb-api-nette-caching/d/total?format=flat-square"></a>
+  <a href="https://github.com/filipsedivy/cnb-api-nette-caching/releases"><img src="https://poser.pugx.org/filipsedivy/cnb-api-nette-caching/v/stable?format=flat-square"></a>
 </p>
 
 -----
 
 ## Usage
 
-To install latest version of `%PACKAGE%` use [Composer](https://getcomposer.com).
+To install latest version of `filipsedivy/cnb-api-nette-caching` use [Composer](https://getcomposer.com).
 
 ```bash
-composer require %PACKAGE%
+composer require filipsedivy/cnb-api-nette-caching
 ```
 
 ## Documentation
@@ -36,4 +36,4 @@ For detailed instructions on how to use the library, visit the [documentation](.
 
 -----
 
-If the library is useful, **[please make a donation now](https://filipsedivy.cz/donation?to=%PACKAGE%)**. Thank you!
+If the library is useful, **[please make a donation now](https://filipsedivy.cz/donation?to=cnb-api-nette-caching)**. Thank you!
