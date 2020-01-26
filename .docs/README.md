@@ -5,7 +5,7 @@
 ```php
 $storage = new \Nette\Caching\Storages\FileStorage(__DIR__ . '/temp');
 $cache = new \Nette\Caching\Cache($storage);
-$cnbCache = new \CnbApi\Caching\NetteCaching($cache);
+$adapter = new \CnbApi\Caching\NetteCaching($cache);
 
-$client = new \CnbApi\Client($cnbCache);
+$client = new \CnbApi\Client($adapter);
 ```
