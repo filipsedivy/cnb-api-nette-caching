@@ -21,7 +21,7 @@
     <rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">
         <properties>
             <property name="rootNamespaces" type="array" value="
-				src=>Vendor\Package,
+				src=>CnbApi\Caching,
 				tests/cases=>Tests\Cases,
 				tests/app=>Tests\App
 			"/>
