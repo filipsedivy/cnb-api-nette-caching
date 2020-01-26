@@ -1,9 +1,10 @@
 {
-    "name": "filipsedivy/TODO",
-    "description": "TODO",
+    "name": "filipsedivy/cnb-api-nette-caching",
+    "description": "Extension nette/caching to filipsedivy/cnb-api package",
     "license": "MIT",
     "keywords": [
-        "TODO"
+        "CNB",
+        "Caching"
     ],
     "type": "library",
     "authors": [
@@ -14,11 +15,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vendor\\Package\\": "src"
+            "CnbApi\\Caching\\": "src"
         }
     },
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "filipsedivy/cnb-api": "^3.0",
+        "nette/caching": "^3.0"
     },
     "require-dev": {
         "ninjify/nunjuck": "^0.3",
