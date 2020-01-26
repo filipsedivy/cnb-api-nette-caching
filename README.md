@@ -1,7 +1,7 @@
 <h1 align=center>Extension nette/caching to filipsedivy/cnb-api package</h1>
 
 <p align=center>
-%DECRIPION%
+Extension nette/caching to filipsedivy/cnb-api package
 </p>
 
 <p align=center>
@@ -32,7 +32,7 @@ For detailed instructions on how to use the library, visit the [documentation](.
 
 ## Contributing
 
-%PACKAGE_NAME% is an Open Source, community-driven project. You can help develop code or create documentation.
+CNB-API-Nette-Caching is an Open Source, community-driven project. You can help develop code or create documentation.
 
 -----
 
