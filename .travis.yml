@@ -30,7 +30,7 @@ jobs:
     include:
         -   stage: Code Sniffer
             script:
-                - vendor/bin/phpcs --standard=phpcs.xml --encoding=utf-8 -sp src/ tests/
+                - travis_retry composer cs
 
         -   stage: Static Analysis
             script:
