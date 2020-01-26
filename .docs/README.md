@@ -1,4 +1,4 @@
-# filipsedivy/cnb-api-nette-caching
+# Extension nette/caching to filipsedivy/cnb-api package
 
 ## Usage
 
